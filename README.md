@@ -4,4 +4,6 @@
 
 Get Your API Key and App Id Here: https://developer.infermedica.com/
 
-Replace it [Here](https://github.com/arnavs-0/medical-api/blob/e38549336c3c863e24d137d5081cf630a99bb418/api.py#L56)
+Replace it [Here](https://github.com/arnavs-0/PocDoc-API/blob/7d29beaa5db76cf7dd7d6b3971a81c8a69c21928/api.py#L56)
+
+Made for our App [PocDoc](https://arnavs-0.github.io/PocDoc-Client/)
