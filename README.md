@@ -10,5 +10,5 @@ Made for our App [PocDoc](https://arnavs-0.github.io/PocDoc-Client/)
 
 
 Contributors:
-- Arnav Shah [GitHub](https://github.com/arnavs-0)
-- Vishal Dattathreya [GitHub](https://github.com/cmdvmd)
+- [Arnav Shah](https://github.com/arnavs-0)
+- [Vishal Dattathreya](https://github.com/cmdvmd)
