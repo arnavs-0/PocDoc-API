@@ -38,7 +38,8 @@ API_KEY = 'Infermedica API key here'
 **This API must be hosted either hosted locally or using a Hosting Website, [Heroku](https://www.heroku.com/) is reccomended**
 
 The API had 2 endpoints: 
-``` /symptoms and /diagnosis```
+``` /symptoms ```
+``` /diagnosis```
 
 The ``` /symptoms ```endpoint is a GET request that returns a JSON list of key-value symptom pairs 
 
