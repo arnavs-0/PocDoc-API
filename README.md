@@ -54,6 +54,7 @@ gender (given at birth)
 age
 symptoms (symptom ids are required)
 ```
+The symptom IDs cana be located [here](https://developer.infermedica.com/docs/v3/available-symptoms)
 
 Sample request:
 
