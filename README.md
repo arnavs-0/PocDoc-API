@@ -27,7 +27,7 @@ APP_ID = 'Infermedica App ID here'
 API_KEY = 'Infermedica API key here'
 ```
 
-This API must be hosted either hosted locally or using a Hosting Website, [Heroku](https://www.heroku.com/) is reccomended
+**This API must be hosted either hosted locally or using a Hosting Website, [Heroku](https://www.heroku.com/) is reccomended**
 
 The API had 2 endpoints: 
 ``` /symptoms and /diagnosis```
