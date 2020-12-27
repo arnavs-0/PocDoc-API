@@ -1,6 +1,7 @@
 from flask import Flask, request
 from re import match
 from requests import get, post
+from keys import APP_ID, API_KEY
 
 
 app = Flask(__name__)
@@ -41,19 +42,9 @@ def diagnosis():
     return {'conditions': infermedica_diagnosis}, 200
 
 
-@app.route('/')
-def home():
-    return '''
-    <h2>Endpoints</h2>
-    <ul>
-        <li>/symptoms</li>
-        <li>/diagnosis</li>
-    </ul>
-    '''
-
+__headers = {'App-Id': APP_ID, 'App-Key': API_KEY}
 
 base = 'https://api.infermedica.com/v2'
-__headers = {'App-Id': 'APP_ID', 'App-Key': 'APP_KEY'}
 
 infermedica_symptoms = []
 symptoms_request = get(base+'/symptoms', headers=__headers).json()
