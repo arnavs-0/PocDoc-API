@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 First, an Infermedica App ID and API key is required which can be obtained [here](https://developer.infermedica.com/)
 
-In the [keys.py](https://github.com/arnavs-0/PocDoc-API/blob/main/keys.py) change the following lines to your App ID and API key
+In [keys.py](https://github.com/arnavs-0/PocDoc-API/blob/main/keys.py) change the following lines to your App ID and API key
 
 ```Python
 APP_ID = 'Infermedica App ID here'
@@ -37,22 +37,20 @@ API_KEY = 'Infermedica API key here'
 
 **This API must be hosted either hosted locally or using a Hosting Website, [Heroku](https://www.heroku.com/) is reccomended**
 
-The API had 2 endpoints: 
-``` /symptoms ```
-``` /diagnosis```
+The API had 2 endpoints: `/symptoms` and `/diagnosis`
 
-The ``` /symptoms ```endpoint is a GET request that returns a JSON list of key-value symptom pairs 
+The `/symptoms` endpoint is a GET request that returns a JSON list of key-value symptom pairs 
 
-```https://YOUR_URL_HERE/symptoms ```
+`https://YOUR_URL_HERE/symptoms`
 
-The ``` /diagnosis ``` endpoint is a POST request that will return a JSON List of possible diagnosis from the given information.
+The `/diagnosis` endpoint is a POST request that will return a JSON List of possible diagnosis from the given information.
 
 The following is required in the POST request:
 
 ```
 gender (given at birth)
 age
-symptoms (symptom ids are required)
+symptoms (Infermedica symptom ids are required)
 ```
 The symptom IDs cana be located [here](https://developer.infermedica.com/docs/v3/available-symptoms)
 
