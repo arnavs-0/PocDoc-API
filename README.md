@@ -12,6 +12,14 @@
 
 ## Install
 
+Clone the repo:
+
+```sh
+https://github.com/arnavs-0/PocDoc-API.git
+```
+
+Intsall the requirements:
+
 ```sh
 pip install -r requirements.txt
 ```
