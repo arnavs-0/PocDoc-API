@@ -41,7 +41,9 @@ The API had 2 endpoints: `/symptoms` and `/diagnosis`
 
 The `/symptoms` endpoint is a GET request that returns a JSON list of key-value symptom pairs 
 
-`https://YOUR_URL_HERE/symptoms`
+```
+https://YOUR_URL_HERE/symptoms
+```
 
 The `/diagnosis` endpoint is a POST request that will return a JSON List of possible diagnosis from the given information.
 
@@ -52,7 +54,7 @@ gender (given at birth)
 age
 symptoms (Infermedica symptom ids are required)
 ```
-The symptom IDs cana be located [here](https://developer.infermedica.com/docs/v3/available-symptoms)
+Symptom IDs can be found [here](https://developer.infermedica.com/docs/v3/available-symptoms)
 
 Sample request:
 
