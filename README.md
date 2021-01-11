@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to PocDoc-API 👋</h1>
+<h1 align="center">Welcome to PocDoc-API</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">
